@@ -118,7 +118,7 @@ h1, h2 {
 }
 
 .app__items li::before {
-    content: "🎉";
+    content: "";
     position: absolute;
     top: 1px;
     left: 0;

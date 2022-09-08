@@ -21,7 +21,7 @@ export default class List extends Component {
 
         // If there are no items to show, render a little status instead
         if(store.state.items.length === 0) {
-            self.element.innerHTML = `<p class="no-items">You've done nothing yet 😢</p>`;
+            self.element.innerHTML = `<p class="no-items">Nothing was done yet! </p>`;
             return;
         }
         
